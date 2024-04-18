@@ -31,7 +31,7 @@ except ValidationError as e:
             'loc': ('signup_ts',),
             'msg': 'Field required',
             'input': {'id': 'not an int', 'tastes': {}},
-            'url': 'https://errors.pydantic.dev/2/v/missing',
+            'url':'https://errors.pydantic.dev/2/v/missing',
         },
     ]
     """
