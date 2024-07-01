@@ -24,6 +24,7 @@ external_data = {
 user = User(**external_data)
 
 print(user.id)
+
 print(user.model_dump())
 """
 {
